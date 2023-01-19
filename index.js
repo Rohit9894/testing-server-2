@@ -19,5 +19,4 @@ app.get("/", (req, res) => {
 });
 app.listen(8080, async () => {
   await connect();
-  console.log("Listening on at http://localhost:8080");
 });
